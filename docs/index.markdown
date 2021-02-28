@@ -178,6 +178,7 @@ layout: main
 - [Ф – Failed state: Неудавшееся, несостоятельное государство](https://www.youtube.com/watch?v=SB9w_sgKE00&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2210)
 - [Форма государственного управления](https://www.youtube.com/watch?v=Oks5WNgd82s&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1769)
 - [Федерализм](https://www.youtube.com/watch?v=WZQWjS_31Ns&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1804)
+- [Феминизм](https://www.youtube.com/watch?v=fpCr9ELFWHA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1889)
 - [Футурология](https://www.youtube.com/watch?v=gizOwCoijl4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1657)
 - [Фанатизм](https://www.youtube.com/watch?v=mGGwlWoBYMo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1696)
 - [Феодализм](https://www.youtube.com/watch?v=5JXJjYfLVqk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1774)
