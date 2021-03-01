@@ -33,7 +33,7 @@ layout: main
 
 - [Гражданское общество](https://www.youtube.com/watch?v=y6PHwCVR00I&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1061)
 - [Геополитика. Псевдонауки. Детерменизм vs Прогресс и Адаптивность](https://www.youtube.com/watch?v=E-aBxlED_mA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=997)
-- [Государство. Народ, граница, правительство, независимость. Монополия насилия и распределение власти](https://www.youtube.com/watch?v=GWz3RphgTQc&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1020)
+- [Государство. Народ, граница, правительство, независимость. Монополия на насилие и распределение власти](https://www.youtube.com/watch?v=GWz3RphgTQc&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1020)
 - [Гражданство и гражданин](https://www.youtube.com/watch?v=W3YyYMMlun4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=910)
 - [Гуманизм](https://www.youtube.com/watch?v=tXoOoAbLhOc&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1397)
 
@@ -210,7 +210,7 @@ layout: main
 - [Обсуждение встречи членов ЕСПЧ с Путиным. 11 декабря 2018 г.](https://www.youtube.com/watch?v=3-ymSwBdAvg&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Спецвыпуск про Ивана Голунова. 11 июня 2019 г.](https://www.youtube.com/watch?v=3pbgaTqdJOU&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Политический кризис. 30 июля 2019 г.](https://www.youtube.com/watch?v=hj7iSD_j9P0&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
-- [Полу-спецвыпуск с большой рубрикой «Отцы», посвящённой нобелевским лауреатам. 15 октябрь 2019 г.](https://www.youtube.com/watch?v=o8cwOGhgNuk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
+- [Полуспецвыпуск с большой рубрикой «Отцы», посвящённой нобелевским лауреатам. 15 октябрь 2019 г.](https://www.youtube.com/watch?v=o8cwOGhgNuk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Спецвыпуск про самоизоляцию. «Цифровой концлагерь». 31 марта 2020 г.](https://www.youtube.com/watch?v=0qnS0sntiP8&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Новая дата плебисцита. Почему такая спешка? Надомное голосование. Кампания «НЕТ». 3 июня 2020 г.](https://www.youtube.com/watch?v=RHTLKfMwUao&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Протесты в Беларуси. Отравление Навального. 13 сентября 2020 г.](https://www.youtube.com/watch?v=4cjVC1GGyiI&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
