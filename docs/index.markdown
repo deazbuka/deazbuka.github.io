@@ -4,9 +4,12 @@ layout: main
 
 # Азбука демократии
 
-Рубрика «Азбука демократии» от неподражаемой [Екатерины Шульман](https://twitter.com/eschulmann)
+Рубрика «Азбука демократии» от неподражаемой
+[Екатерины Шульман](https://twitter.com/eschulmann)
 
-[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л) [М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х) [Ц](#ц) Ч Ш Щ Ъ Ы Ь Э Ю Я
+[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л)
+[М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х)
+[Ц](#ц) [Ч](#ч) Ш Щ Ъ Ы Ь Э Ю Я
 
 ### А
 
@@ -202,6 +205,10 @@ layout: main
 - [Ценности](https://www.youtube.com/watch?v=_GX7xUzgudI&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1782)
 - [Центр, центризм, централизация](https://www.youtube.com/watch?v=SnqGs5QX2RA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1850)
 - [Церковь](https://www.youtube.com/watch?v=XtTiH-efh00&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1849)
+
+### Ч
+
+- [Чрезвычайное](https://www.youtube.com/watch?v=Bi9xEGP6LGo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1960)
 
 ## Статусы без Азбуки
 
