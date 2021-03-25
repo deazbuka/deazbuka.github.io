@@ -211,6 +211,7 @@ layout: main
 ### Ш
 
 - [Шпионаж](https://www.youtube.com/watch?v=7PsxZIn-kcU&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1880)
+- [Шантаж](https://www.youtube.com/watch?v=CtlRG1c6sxk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2036)
 
 ## Статусы без Азбуки
 
