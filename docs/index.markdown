@@ -6,7 +6,7 @@ layout: main
 
 Рубрика «Азбука демократии» от неподражаемой [Екатерины Шульман](https://twitter.com/eschulmann)
 
-[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л) [М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х) [Ц](#ц) [Ч](#ч) [Ш](#ш) Щ Ъ Ы Ь Э Ю Я
+[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л) [М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х) [Ц](#ц) [Ч](#ч) [Ш](#ш) Щ Ъ Ы Ь [Э](#э) Ю Я
 
 ### А
 
@@ -215,6 +215,10 @@ layout: main
 - [Шовинизм](https://www.youtube.com/watch?v=OIKscGGy5Tw&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1700)
 - [Штраф. Вира. Пеня.](https://www.youtube.com/watch?v=5kxs5cbKCug&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1871)
 - [Шариат](https://www.youtube.com/watch?v=6iAPNgAoxSM&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2282)
+
+### Э
+
+- [Экстремизм](https://www.youtube.com/watch?v=i6fVznbqVuo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1818)
 
 ## Статусы без Азбуки
 
