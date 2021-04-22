@@ -32,7 +32,7 @@ layout: main
 ### Г
 
 - [Гражданское общество](https://www.youtube.com/watch?v=y6PHwCVR00I&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1061)
-- [Геополитика. Псевдонауки. Детерменизм vs Прогресс и Адаптивность](https://www.youtube.com/watch?v=E-aBxlED_mA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=997)
+- [Геополитика. Псевдонауки. Детерминизм vs Прогресс и Адаптивность](https://www.youtube.com/watch?v=E-aBxlED_mA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=997)
 - [Государство. Народ, граница, правительство, независимость. Монополия на насилие и распределение власти](https://www.youtube.com/watch?v=GWz3RphgTQc&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1020)
 - [Гражданство и гражданин](https://www.youtube.com/watch?v=W3YyYMMlun4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=910)
 - [Гуманизм](https://www.youtube.com/watch?v=tXoOoAbLhOc&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1397)
