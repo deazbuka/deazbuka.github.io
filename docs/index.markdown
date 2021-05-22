@@ -220,6 +220,7 @@ layout: main
 
 - [Экстремизм](https://www.youtube.com/watch?v=i6fVznbqVuo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1818)
 - [Эскалация и деэскалация](https://www.youtube.com/watch?v=tFMCZB6gtQI&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2150)
+- [Электорат и электоральное поведение](https://www.youtube.com/watch?v=hXmCGs8VrxY&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1680)
 
 ## Статусы без Азбуки
 
@@ -235,3 +236,4 @@ layout: main
 - [Административная реформа, проекты об изъятии детей, Всемирное исследование ценностей: карта 2020. 17 ноября 2020 г.](https://www.youtube.com/watch?v=3GCx5rRKpws&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Предновогодние репрессии, новые иноагенты, государственная мизогиния: боевой финал 2020-го. 29 декабря 2020 г.](https://www.youtube.com/watch?v=jJcnlqJJvP4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Навальный и реальный срок, перегруз автозаков, поручения СПЧ. 3 февраля 2021 г.](https://www.youtube.com/watch?v=NzVX_38plVk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
+- [Стрeльба в школе, пакет Пискарева, новая концепция ФСИН, положение о просвещении](https://www.youtube.com/watch?v=b-uArQcXGF4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
