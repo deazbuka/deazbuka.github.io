@@ -221,6 +221,8 @@ layout: main
 - [Экстремизм](https://www.youtube.com/watch?v=i6fVznbqVuo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1818)
 - [Эскалация и деэскалация](https://www.youtube.com/watch?v=tFMCZB6gtQI&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2150)
 - [Электорат и электоральное поведение](https://www.youtube.com/watch?v=hXmCGs8VrxY&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1680)
+- [Экстерриториальность](https://www.youtube.com/watch?v=D-fSdDd-TpA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2035)
+- [Эмиграция](https://www.youtube.com/watch?v=Kl8tZbl264M&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2047)
 
 ## Статусы без Азбуки
 
