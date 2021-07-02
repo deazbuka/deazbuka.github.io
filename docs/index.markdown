@@ -226,6 +226,7 @@ layout: main
 - [Этатизм](https://www.youtube.com/watch?v=-C-lNbEI7Wo&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1955)
 - [Этика](https://www.youtube.com/watch?v=k94CkN-oMLM&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1938)
 - [Эффективность](https://www.youtube.com/watch?v=tjm68jojjtQ&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2035)
+- [Эволюция социально-политическая](https://www.youtube.com/watch?v=Qt4ZKId9Vms&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1745)
 
 ## Статусы без Азбуки
 
