@@ -1,5 +1,6 @@
 docs/_site
 docs/.jekyll-cache
 .vscode
-node_modules
+node_modules/
+downloadedData/
 config.json

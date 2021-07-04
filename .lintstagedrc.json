@@ -1,0 +1,3 @@
+{
+  "*.{ts,markdown,json}": ["prettier --write"]
+}
