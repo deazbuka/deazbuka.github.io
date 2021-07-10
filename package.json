@@ -2,9 +2,15 @@
   "name": "deazbuka",
   "version": "1.0.0",
   "main": "src/updateAzbuka.ts",
+  "engines": {
+    "node": "^16",
+    "npm": "^6"
+  },
   "scripts": {
     "updateAzbuka": "ts-node src/updateAzbuka.ts azbuka.json",
     "makeMarkdown": "ts-node src/makeMarkdown.ts azbuka.json docs/index.markdown",
+    "prettier:check": "prettier -c ./",
+    "prettier:write": "prettier -w ./",
     "prepare": "husky install"
   },
   "module": "ESNext",
