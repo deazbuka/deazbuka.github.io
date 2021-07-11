@@ -227,7 +227,6 @@ layout: main
 - [Этика](https://www.youtube.com/watch?v=k94CkN-oMLM&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1938)
 - [Эффективность](https://www.youtube.com/watch?v=tjm68jojjtQ&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2035)
 - [Эволюция социально-политическая](https://www.youtube.com/watch?v=Qt4ZKId9Vms&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1745)
-- [Элиты](https://www.youtube.com/watch?v=f0gbXuR5KNw&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2224)
 
 ## Статусы без Азбуки
 

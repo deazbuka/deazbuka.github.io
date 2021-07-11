@@ -8,9 +8,6 @@ jobs:
     if: ${{ github.event.issue.pull_request && contains(fromJson('["KarKarbI4"]'), github.event.comment.user.login) && startsWith(github.event.comment.body, '#слово') }}
     runs-on: ubuntu-latest
     env:
-      EVENT: ${{ toJson(github.event) }}
-      ISSUE: ${{ toJson(github.event.issue) }}
-      COMMENT: ${{ toJson(github.event.comment) }}
       COMMENT_BODY: ${{ github.event.comment.body }}
       COMMAND_PREFIX: '#слово '
     steps:
@@ -32,9 +29,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: echo $EVENT
-      - run: echo $COMMENT
-      - run: echo $ISSUE
       - name: Парсим слово из комментария
         id: parseWord
         run: echo ::set-output name=word::${COMMENT_BODY#"$COMMAND_PREFIX"}
@@ -44,37 +38,11 @@ jobs:
       - name: Обновляем pr
         uses: peter-evans/create-pull-request@v3.10.0
         with:
+          committer: DeazbukaBot <deazbuka-bot@deazbuka.github.io>
+          author: DeazbukaBot <deazbuka-bot@deazbuka.github.io>
           base: main
           branch: ${{ steps.checkoutToPr.outputs.branch }}
           title: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           body: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
-          commit-message: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
+          commit-message: ${{ format('[DeazbukaBot] Добавил {0}', steps.parseWord.outputs.word) }}
           delete-branch: true
-          draft: false
-
-  # manual-refine-azbuka:
-  #   # запускаем, только если комментарий к пул реквесту и содержит триггер-сообщение
-  #   # #слово Элиты
-  #   if: ${{ github.event.issue.pull_request }}
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: actions/setup-node@v2
-  #       with:
-  #         node-version: '14'
-  #     - run: npm ci
-  #     - name: Setup config
-  #       env:
-  #         DEAZBUKA_CONFIG: ${{ secrets.DEAZBUKA_CONFIG }}
-  #       run: echo $DEAZBUKA_CONFIG > config.json
-  #     - run: npm run updateAzbuka
-  #     - run: npm run prettier:write
-  #     - name: Create Pull Request
-  #       uses: peter-evans/create-pull-request@v3.10.0
-  #       with:
-  #         branch-suffix: short-commit-hash
-  #         title: Автоматическое обновление азбуки
-  #         body: Добавил новое слово
-  #         commit-message: Автоматическое обновление азбуки
-  #         delete-branch: true
-  #         draft: true
