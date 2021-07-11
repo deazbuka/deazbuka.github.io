@@ -1,0 +1,75 @@
+name: manual-refine-azbuka
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  manual-refine-azbuka:
+    # Запускаем, когда один из юзеров вайтлиста написал в pr комментарий по формату "#слово Слово, на которое нужно поменять последнее в azbuka.json"
+    if: ${{ github.event.issue.pull_request && contains(fromJson('["KarKarbI4"]'), github.event.comment.user.login) && startsWith(github.event.comment.body, '#слово') }}
+    runs-on: ubuntu-latest
+    env:
+      EVENT: ${{ toJson(github.event) }}
+      ISSUE: ${{ toJson(github.event.issue) }}
+      COMMENT: ${{ toJson(github.event.comment) }}
+      COMMENT_BODY: ${{ github.event.comment.body }}
+      COMMAND_PREFIX: '#слово '
+    steps:
+      - uses: actions/checkout@v2
+      # Способ как чекаутнуться на ветку pr из комментария взят здесь:
+      # https://github.com/actions/checkout/issues/331#issuecomment-674464772
+      - name: Checkout to pr branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: checkoutToPr
+        run: |
+          hub pr checkout ${{ github.event.issue.number }}
+          echo ::set-output name=branch::$(git rev-parse --abbrev-ref HEAD)
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: echo $EVENT
+      - run: echo $COMMENT
+      - run: echo $ISSUE
+      - name: Парсим слово из комментария
+        id: parseWord
+        run: echo ::set-output name=word::${COMMENT_BODY#"$COMMAND_PREFIX"}
+      - run: npm ci
+      - run: npm run updateLatestWord -- ${{ steps.parseWord.outputs.word }}
+      - run: npm run prettier:write
+      - name: Обновляем pr
+        uses: peter-evans/create-pull-request@v3.10.0
+        with:
+          base: main
+          branch: ${{ steps.checkoutToPr.outputs.branch }}
+          title: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
+          body: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
+          commit-message: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
+          delete-branch: true
+          draft: false
+
+  # manual-refine-azbuka:
+  #   # запускаем, только если комментарий к пул реквесту и содержит триггер-сообщение
+  #   # #слово Элиты
+  #   if: ${{ github.event.issue.pull_request }}
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: actions/setup-node@v2
+  #       with:
+  #         node-version: '14'
+  #     - run: npm ci
+  #     - name: Setup config
+  #       env:
+  #         DEAZBUKA_CONFIG: ${{ secrets.DEAZBUKA_CONFIG }}
+  #       run: echo $DEAZBUKA_CONFIG > config.json
+  #     - run: npm run updateAzbuka
+  #     - run: npm run prettier:write
+  #     - name: Create Pull Request
+  #       uses: peter-evans/create-pull-request@v3.10.0
+  #       with:
+  #         branch-suffix: short-commit-hash
+  #         title: Автоматическое обновление азбуки
+  #         body: Добавил новое слово
+  #         commit-message: Автоматическое обновление азбуки
+  #         delete-branch: true
+  #         draft: true
