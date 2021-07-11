@@ -45,5 +45,13 @@ jobs:
           title: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           body: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           commit-message: ${{ format('[DeazbukaBot] Добавил {0}', steps.parseWord.outputs.word) }}
-          labels: 'deazbuka bot'
           delete-branch: true
+      - name: Автоматически мержим PR
+        uses: 'pascalgn/automerge-action@v0.14.2'
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          MERGE_LABELS: 'deazbuka bot'
+          MERGE_REMOVE_LABELS: 'wip'
+          MERGE_DELETE_BRANCH: true
+          UPDATE_METHOD: rebase
+          PULL_REQUEST: ${{ github.event.issue.number }}
