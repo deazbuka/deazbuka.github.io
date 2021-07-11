@@ -45,5 +45,10 @@ jobs:
           title: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           body: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           commit-message: ${{ format('[DeazbukaBot] Добавил {0}', steps.parseWord.outputs.word) }}
-          labels: 'deazbuka bot'
+          labels: 'automerge'
           delete-branch: true
+      - name: Убираем wip
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: wip
