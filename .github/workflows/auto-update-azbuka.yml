@@ -23,9 +23,13 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3.10.0
         with:
+          committer: DeazbukaBot <deazbuka-bot@deazbuka.github.io>
+          author: DeazbukaBot <deazbuka-bot@deazbuka.github.io>
+          branch: deazbuka-bot
           branch-suffix: short-commit-hash
           title: Автоматическое обновление азбуки
           body: Добавил новое слово
-          commit-message: Автоматическое обновление азбуки
+          commit-message: '[DeazbukaBot] Автоматическое обновление азбуки'
+          labels: 'deazbuka bot'
           delete-branch: true
           draft: true
