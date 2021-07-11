@@ -1,0 +1,31 @@
+name: auto-update-azbuka
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # At 20:00 on Wednesday; https://crontab.guru/#00_20_*_*_3
+    - cron: '00 20 * * 3'
+  workflow_dispatch:
+jobs:
+  fetch-new-azbuka:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+      - name: Setup config
+        env:
+          DEAZBUKA_CONFIG: ${{ secrets.DEAZBUKA_CONFIG }}
+        run: echo $DEAZBUKA_CONFIG > config.json
+      - run: npm run updateAzbuka
+      - run: npm run prettier:write
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3.10.0
+        with:
+          branch-suffix: short-commit-hash
+          title: Автоматическое обновление азбуки
+          body: Добавил новое слово
+          commit-message: Auto update azbuka
+          delete-branch: true
+          draft: true
