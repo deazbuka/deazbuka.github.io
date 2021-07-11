@@ -9,6 +9,7 @@
   "scripts": {
     "updateAzbuka": "ts-node src/updateAzbuka.ts azbuka.json",
     "makeMarkdown": "ts-node src/makeMarkdown.ts azbuka.json docs/index.markdown",
+    "updateLatestWord": "ts-node src/updateLatestWord.ts azbuka.json",
     "prettier:check": "prettier -c ./",
     "prettier:write": "prettier -w ./",
     "prepare": "husky install"

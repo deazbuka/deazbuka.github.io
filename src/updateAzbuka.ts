@@ -91,7 +91,9 @@ async function updateAzbuka() {
   const autoRefinedData = autoRefineVideoData(playlistId, videoMeta);
   console.log(someAnalytics(autoRefinedData));
 
-  const manualRefinedAzbuka = readFromFile(manualRefinedAzbukaFilename);
+  const manualRefinedAzbuka: IRefinedData = readFromFile(
+    manualRefinedAzbukaFilename
+  );
   const newAzbukaWords = diff(manualRefinedAzbuka, autoRefinedData);
   console.log('Новые слова', newAzbukaWords);
 
