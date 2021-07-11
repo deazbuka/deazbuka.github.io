@@ -1,0 +1,22 @@
+name: auto-update-azbuka
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # At 20:00 on Wednesday; https://crontab.guru/#00_20_*_*_3
+    - cron: '00 20 * * 3'
+  workflow_dispatch:
+jobs:
+  fetch-new-azbuka:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+      - name: Setup config
+        env:
+          super_secret: ${{ secrets.AZBUKA_CONFIG }}
+        run: echo $AZBUKA_CONFIG > config.json
+      - run: npm run updateAzbuka
+      - run: npm run prettier:wrtie
