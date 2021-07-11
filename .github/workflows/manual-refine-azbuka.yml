@@ -34,6 +34,7 @@ jobs:
         run: echo ::set-output name=word::${COMMENT_BODY#"$COMMAND_PREFIX"}
       - run: npm ci
       - run: npm run updateLatestWord -- ${{ steps.parseWord.outputs.word }}
+      - run: npm run makeMarkdown
       - run: npm run prettier:write
       - name: Обновляем pr
         uses: peter-evans/create-pull-request@v3.10.0
