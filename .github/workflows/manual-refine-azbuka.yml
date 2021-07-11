@@ -45,5 +45,5 @@ jobs:
           title: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           body: ${{ format('Добавил {0}', steps.parseWord.outputs.word) }}
           commit-message: ${{ format('[DeazbukaBot] Добавил {0}', steps.parseWord.outputs.word) }}
-          labels: 'deazbuka bot'
+          labels: 'deazbuka bot,automerge'
           delete-branch: true

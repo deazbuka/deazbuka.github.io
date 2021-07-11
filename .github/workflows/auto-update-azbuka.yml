@@ -30,6 +30,5 @@ jobs:
           title: Автоматическое обновление азбуки
           body: Добавил новое слово
           commit-message: '[DeazbukaBot] Автоматическое обновление азбуки'
-          labels: 'deazbuka bot'
+          labels: 'deazbuka bot,wip'
           delete-branch: true
-          draft: true
