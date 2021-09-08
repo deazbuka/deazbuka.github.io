@@ -6,7 +6,7 @@ layout: main
 
 Рубрика «Азбука демократии» от неподражаемой [Екатерины Шульман](https://twitter.com/eschulmann)
 
-[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л) [М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х) [Ц](#ц) [Ч](#ч) [Ш](#ш) Щ Ъ Ы Ь [Э](#э) Ю Я
+[А](#а) [Б](#б) [В](#в) [Г](#г) [Д](#д) Е Ё Ж [З](#з) [И](#и) Й [К](#к) [Л](#л) [М](#м) [Н](#н) [О](#о) [П](#п) [Р](#р) [С](#с) [Т](#т) [У](#у) [Ф](#ф) [Х](#х) [Ц](#ц) [Ч](#ч) [Ш](#ш) Щ Ъ Ы Ь [Э](#э) [Ю](#ю) Я
 
 ### А
 
@@ -229,6 +229,10 @@ layout: main
 - [Эволюция социально-политическая](https://www.youtube.com/watch?v=Qt4ZKId9Vms&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1745)
 - [Элиты](https://www.youtube.com/watch?v=f0gbXuR5KNw&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=2224)
 
+### Ю
+
+- [Юрисдикция.](https://www.youtube.com/watch?v=cq-0CqTFSaA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1820)
+
 ## Статусы без Азбуки
 
 - [Спецвыпуск Кемерово. 27 марта 2018 г.](https://www.youtube.com/watch?v=KSh2bgEC5GI&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
@@ -244,3 +248,4 @@ layout: main
 - [Предновогодние репрессии, новые иноагенты, государственная мизогиния: боевой финал 2020-го. 29 декабря 2020 г.](https://www.youtube.com/watch?v=jJcnlqJJvP4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Навальный и реальный срок, перегруз автозаков, поручения СПЧ. 3 февраля 2021 г.](https://www.youtube.com/watch?v=NzVX_38plVk&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
 - [Стрeльба в школе, пакет Пискарева, новая концепция ФСИН, положение о просвещении](https://www.youtube.com/watch?v=b-uArQcXGF4&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
+- [Открытие сезона: обзор выборного цикла, электоральные кнуты и пряники, ускользающий результат.](https://www.youtube.com/watch?v=Gce3axoWCbY&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex)
