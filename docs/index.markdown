@@ -232,6 +232,7 @@ layout: main
 ### Ю
 
 - [Юрисдикция.](https://www.youtube.com/watch?v=cq-0CqTFSaA&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1820)
+- [Юмор](https://www.youtube.com/watch?v=CZtANVJKFZg&list=PLYdsjx7Rg7k5aFd5fpHdxQO_5kUc9Y5ex&t=1998)
 
 ## Статусы без Азбуки
 
